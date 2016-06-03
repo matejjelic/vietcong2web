@@ -96,7 +96,7 @@ if(isset($_POST['submit'])){
 }
 
 //define page title
-$title = 'Demo';
+$title = 'Vietcong 2 Web';
 
 //include header template
 require('layout/header.php');
