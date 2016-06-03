@@ -15,6 +15,9 @@ define('DBNAME','vietcong2');
 define('DIR','http://localhost/');
 define('SITEEMAIL','noreply@vietcong2.cf');
 
+//print to error.log
+//file_put_contents('php://stderr', print_r($foo, TRUE));
+
 try {
 
 	//create PDO connection

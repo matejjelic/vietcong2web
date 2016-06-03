@@ -6,8 +6,7 @@ class Mail extends PhpMailer {
 
     // Set default variables for all new objects
     public $From = 'noreply@vietcong2.cf';
-    public $FromName = SITETITLE;
-    public $Sender = 'noreply@vietcong2.cf';
+    public $FromName = "Vietcong 2 Web";
     //public $Host     = 'smtp.gmail.com';
     //public $Mailer   = 'smtp';
     //public $SMTPAuth = true;
