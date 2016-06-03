@@ -3,7 +3,7 @@ include('phpmailer.php');
 class Mail extends PhpMailer
 {
     // Set default variables for all new objects
-    public $From     = 'noreply@domain.com';
+    public $From     = 'noreply@vietcong.cf';
     public $FromName = SITETITLE;
     //public $Host     = 'smtp.gmail.com';
     //public $Mailer   = 'smtp';

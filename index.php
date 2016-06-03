@@ -73,7 +73,10 @@ if(isset($_POST['submit'])){
 			$subject = "Registration Confirmation";
 			$body = "<p>Thank you for registering at demo site.</p>
 			<p>To activate your account, please click on this link: <a href='".DIR."activate.php?x=$id&y=$activasion'>".DIR."activate.php?x=$id&y=$activasion</a></p>
-			<p>Regards Site Admin</p>";
+			<p>Regards Site Admin</p>"
+                                . "<br/>"
+                                . "If you, for some reason, cannot see the activation link, copy this to your browser: "
+                                .DIR."activate.php?x=$id&y=$activasion'>".DIR."activate.php?x=$id&y=$activasion";
 
 			$mail = new Mail();
 			$mail->setFrom(SITEEMAIL);

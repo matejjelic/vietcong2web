@@ -13,7 +13,7 @@ define('DBNAME','vietcong2');
 
 //application address
 define('DIR','http://localhost/');
-define('SITEEMAIL','noreply@domain.com');
+define('SITEEMAIL','noreply@vietcong.cf');
 
 try {
 
